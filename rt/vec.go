@@ -2,21 +2,6 @@ package rt
 
 import "math"
 
-// Go drawback: for type aliases, the functions of the base (aliased) type are not available to the alias. One needs to un-alias to
-// base type to apply the methods, for example:
-//
-// p := point3{0, 0, 0}
-// vec3(p).sub(vec3(p))
-//
-// One needs to express aliases as composites
-//
-// type foo struct {
-//     baseType
-// }
-
-// Go drawback (which might be considered a feature): lack of possibility of overloading infix and other built-in operators makes it
-// cumbersome to express math operations, line foo + bar instead of foo.Add(bar)
-
 type Point3 struct {
 	Vec3
 }
