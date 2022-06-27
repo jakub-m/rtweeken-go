@@ -12,7 +12,13 @@ To run:
 ```
 make
 
+# static
+
 ./bin/main -scene balls -p 20
+
+# the animation
+
+./bin/main -scene balls -w 320 -animate -frames 30 -n 6 -p 10
 ```
 
 ### Go highlights
