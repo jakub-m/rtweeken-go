@@ -18,7 +18,7 @@ make
 
 # the animation
 
-./bin/main -scene balls -w 320 -animate -frames 30 -n 6 -p 10
+./bin/main -animate -frames 180 -scene balls -p 50 -d 25
 ```
 
 ### Go highlights
