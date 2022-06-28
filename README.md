@@ -65,3 +65,4 @@ C++: v - 2*dot(v,n)*n;
 Go: v.Sub(n.Mul(2 * v.Dot(n)))
 ```
 
+([HN](https://news.ycombinator.com/item?id=31910585))
